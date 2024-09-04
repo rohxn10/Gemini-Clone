@@ -1,10 +1,11 @@
 import React from "react";
+import SideBar from "./components/SideBar/Sidebar";
 
 const App = () => {
   return (
-    <div>
-      <h1>React App</h1>
-    </div>
+    <>
+      <SideBar />
+    </>
   );
 }
 export default App;
